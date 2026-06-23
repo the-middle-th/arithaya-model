@@ -20,6 +20,7 @@ Current status:
 
 ```text
 GitHub repository is live and `main` has been pushed.
+Manus preview is live at https://arithayamod-euhqmijc.manus.space.
 ```
 
 Imported Manus playbook:
@@ -40,7 +41,7 @@ Working checklist:
 todo.md
 ```
 
-Next handoff target: Manus deploys and tests from the GitHub repository.
+Next handoff target: Manus reports QA findings from the live preview and confirms whether preview code should be reconciled into the GitHub repo.
 
 ## Project Identity
 
@@ -154,7 +155,7 @@ npm run build
 npm run dev
 ```
 
-4. Deploy to Vercel.
+4. Confirm whether the live Manus preview is the target production candidate or whether Vercel production is still required.
 
 5. Test all pages.
 
@@ -169,6 +170,7 @@ npm run dev
 10. Report issues back to Codex with:
 
 - deployment URL
+- Manus preview URL
 - build errors
 - page errors
 - form errors

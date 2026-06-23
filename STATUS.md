@@ -7,8 +7,14 @@ Last updated: 2026-06-24
 ```text
 Local project complete.
 GitHub repository created and pushed.
-Deployment not yet started.
-Manus QA not yet started.
+Manus preview deployment is live.
+Manus/Vercel production reconciliation pending.
+```
+
+Live Manus preview:
+
+```text
+https://arithayamod-euhqmijc.manus.space
 ```
 
 ## Local Project
@@ -105,13 +111,13 @@ npm run dev
 Status:
 
 ```text
-Pending GitHub push.
+Manus preview live. Vercel production handoff pending only if required.
 ```
 
 Target:
 
 ```text
-Vercel
+Manus preview live; Vercel remains the production target from the original prompt unless founder changes direction.
 ```
 
 ## Supabase
@@ -138,4 +144,4 @@ NEXT_PUBLIC_SITE_URL
 
 ## Next Action
 
-Connect Vercel to `https://github.com/the-middle-th/arithaya-model`, then start Manus QA.
+Compare the Manus live preview with the GitHub Next.js repo, then decide whether to use Manus preview as production or connect `https://github.com/the-middle-th/arithaya-model` to Vercel.

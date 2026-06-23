@@ -5,7 +5,13 @@
 Production host:
 
 ```text
-Vercel
+Manus preview is live. Vercel remains the original production target unless founder chooses Manus hosting.
+```
+
+Live Manus preview:
+
+```text
+https://arithayamod-euhqmijc.manus.space
 ```
 
 GitHub repository:
@@ -16,9 +22,11 @@ https://github.com/the-middle-th/arithaya-model
 
 ## Current Status
 
-GitHub repository is live and `main` has been pushed.
+GitHub repository is live and `main` has been pushed. Manus has also produced a live preview deployment.
 
 ## Vercel Setup
+
+Use this only if the founder confirms Vercel should be the production host instead of Manus hosting.
 
 1. Import GitHub repository:
 

@@ -108,13 +108,19 @@ https://github.com/the-middle-th/arithaya-model
 
 ### Milestone 03 - Vercel Deployment
 
-Status: ready for Manus/Vercel
+Status: Manus preview live; Vercel production decision pending
 
-Manus connects Vercel to the GitHub repo and sets environment variables.
+Live preview:
+
+```text
+https://arithayamod-euhqmijc.manus.space
+```
+
+Next decision: use Manus hosting as the production candidate or connect the GitHub repo to Vercel as originally planned.
 
 ### Milestone 04 - QA
 
-Status: pending deployment
+Status: ready on live Manus preview
 
 Manus tests pages, forms, mobile, SEO, performance, and Supabase lead capture.
 

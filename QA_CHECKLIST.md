@@ -82,7 +82,9 @@
 ## Production Readiness
 
 - [ ] GitHub repo is live
-- [ ] Vercel deployment is live
+- [x] Manus preview deployment is live
+- [ ] Production host decision made: Manus or Vercel
+- [ ] Vercel deployment is live, if Vercel remains required
 - [ ] Supabase migration applied
 - [ ] Vercel environment variables set
 - [ ] all pages tested

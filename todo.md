@@ -12,7 +12,9 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [x] Reconcile Manus playbook with current Next.js + Supabase + Vercel direction
 - [x] Create GitHub repository `the-middle-th/arithaya-model`
 - [x] Push `main` branch to GitHub
-- [ ] Send GitHub URL and handoff files to Manus
+- [x] Send GitHub URL and handoff files to Manus
+- [x] Record Manus preview URL
+- [ ] Compare Manus preview implementation against GitHub repo implementation
 
 ## Stack
 
@@ -64,8 +66,9 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 
 - [ ] Connect GitHub repo to Vercel
 - [ ] Set Vercel environment variables
-- [ ] Deploy production build
-- [ ] Record deployment URL in `STATUS.md`
+- [x] Record Manus preview deployment URL in `STATUS.md`
+- [ ] Decide production host: Manus preview or Vercel
+- [ ] Deploy production build if Vercel is required
 
 ## QA
 

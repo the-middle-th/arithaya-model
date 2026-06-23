@@ -28,9 +28,28 @@ main
 Latest commits:
 
 ```text
+311ad0a Update project status
 8cd4e5a Add project operating files
 44f3f37 Add Manus handoff instructions
 377d24a Initial ARITHAYA model website
+```
+
+Imported Manus playbook:
+
+```text
+ARITHAYA_CODEX_PLAYBOOK.md
+```
+
+Stack reconciliation:
+
+```text
+STACK_DECISION.md
+```
+
+Working checklist:
+
+```text
+todo.md
 ```
 
 Remote:

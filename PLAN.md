@@ -18,6 +18,22 @@ The website must be ready for:
 Plan -> Build -> Commit -> Push -> Deploy -> QA -> Report -> Fix -> Retest -> Improve
 ```
 
+## Imported Manus Playbook
+
+Status: imported
+
+Source file:
+
+```text
+ARITHAYA_CODEX_PLAYBOOK.md
+```
+
+The playbook is adopted for operating process. Stack-specific differences are reconciled in:
+
+```text
+STACK_DECISION.md
+```
+
 ## Workstreams
 
 ### 1. Codex
@@ -70,6 +86,9 @@ Status: complete
 - Git initialized
 - initial website committed
 - Manus handoff file committed
+- operating files committed
+- Manus playbook imported
+- root `todo.md` created
 
 ### Milestone 02 - GitHub Repository
 

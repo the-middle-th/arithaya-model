@@ -22,6 +22,24 @@ Current blocker:
 The GitHub repository arithachboss-cmyk/arithaya-model has not been created yet.
 ```
 
+Imported Manus playbook:
+
+```text
+ARITHAYA_CODEX_PLAYBOOK.md
+```
+
+Stack decision:
+
+```text
+STACK_DECISION.md
+```
+
+Working checklist:
+
+```text
+todo.md
+```
+
 After the empty GitHub repository exists, run:
 
 ```bash

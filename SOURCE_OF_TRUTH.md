@@ -12,6 +12,12 @@ Live Manus preview:
 https://arithayamod-euhqmijc.manus.space
 ```
 
+Reference source pack:
+
+```text
+references/source-pack
+```
+
 ## Rule
 
 All future Codex fixes, Manus QA reports, Vercel deployment work, and production readiness updates must reference this repository.
@@ -23,8 +29,9 @@ Do not use `arithachboss-cmyk/arithaya-model` for this project unless the founde
 ## Next Execution Order
 
 1. Manus tests the live preview.
-2. Manus reports issues against this GitHub repo.
-3. Codex fixes issues locally.
-4. Codex commits and pushes to this repo.
-5. Manus retests.
-6. Repeat until production-ready.
+2. Codex extracts and synthesizes the reference source pack when copy/content strategy changes are needed.
+3. Manus reports issues against this GitHub repo.
+4. Codex fixes issues locally.
+5. Codex commits and pushes to this repo.
+6. Manus retests.
+7. Repeat until production-ready.

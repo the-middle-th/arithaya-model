@@ -10,6 +10,8 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [x] Add project operating files
 - [x] Import Manus Codex Build & QA Playbook
 - [x] Reconcile Manus playbook with current Next.js + Supabase + Vercel direction
+- [x] Import attached ARITHAYA / AIDFT / public policy / CreativEX source pack
+- [x] Create reference index
 - [x] Create GitHub repository `the-middle-th/arithaya-model`
 - [x] Push `main` branch to GitHub
 - [x] Send GitHub URL and handoff files to Manus
@@ -90,3 +92,11 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [ ] Commit fixes
 - [ ] Push fixes
 - [ ] Send back to Manus for retest
+
+## Knowledge Source Pack
+
+- [x] Store source files under `references/source-pack`
+- [x] Create `references/REFERENCE_INDEX.md`
+- [ ] Extract PDF text and page metadata
+- [ ] Synthesize ARITHAYA knowledge themes
+- [ ] Decide which themes become public website copy

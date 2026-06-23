@@ -58,6 +58,12 @@ Working checklist:
 todo.md
 ```
 
+Reference index:
+
+```text
+references/REFERENCE_INDEX.md
+```
+
 Remote:
 
 ```text

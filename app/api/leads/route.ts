@@ -47,13 +47,12 @@ export async function POST(request: Request) {
 
   return NextResponse.json({
     ok: true,
-    message:
-      "Lead received."
+    message: "Lead received."
   });
 }
 
 function pick(object: LeadPayload, keys: Array<keyof LeadPayload>) {
-  return keys.reduce<Partial<LeadPayload>>((accumulator, key) => {
+  return keys.reduce<Record<string, string>>((accumulator, key) => {
     const value = object[key];
     if (value !== undefined && value !== "") {
       accumulator[key] = value;

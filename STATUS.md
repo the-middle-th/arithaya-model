@@ -64,6 +64,12 @@ Reference index:
 references/REFERENCE_INDEX.md
 ```
 
+Manus collaboration issue:
+
+```text
+https://github.com/the-middle-th/arithaya-model/issues/1
+```
+
 Remote:
 
 ```text

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f7f4ed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f4ed;
+  color: #0d1c31;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.signal-grid {
+  background-image:
+    linear-gradient(rgba(200, 163, 95, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 163, 95, 0.16) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.focus-ring {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-mist;
+}

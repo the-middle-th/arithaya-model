@@ -28,6 +28,7 @@ main
 Latest commits:
 
 ```text
+8cd4e5a Add project operating files
 44f3f37 Add Manus handoff instructions
 377d24a Initial ARITHAYA model website
 ```

@@ -13,13 +13,13 @@ Local path:
 Target GitHub repository:
 
 ```text
-git@github.com:arithachboss-cmyk/arithaya-model.git
+https://github.com/the-middle-th/arithaya-model
 ```
 
-Current blocker:
+Current status:
 
 ```text
-The GitHub repository arithachboss-cmyk/arithaya-model has not been created yet.
+GitHub repository is live and `main` has been pushed.
 ```
 
 Imported Manus playbook:
@@ -40,12 +40,7 @@ Working checklist:
 todo.md
 ```
 
-After the empty GitHub repository exists, run:
-
-```bash
-cd /Users/arithachbossabc/Documents/arithaya-model
-git push -u origin main
-```
+Next handoff target: Manus deploys and tests from the GitHub repository.
 
 ## Project Identity
 

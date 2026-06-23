@@ -92,27 +92,23 @@ Status: complete
 
 ### Milestone 02 - GitHub Repository
 
-Status: blocked by repository creation
+Status: complete
 
 Target:
 
 ```text
-arithachboss-cmyk/arithaya-model
+the-middle-th/arithaya-model
 ```
 
-Required action:
+Repository:
 
-Create empty GitHub repository named `arithaya-model`.
-
-After creation:
-
-```bash
-/Users/arithachbossabc/Documents/arithaya-model/scripts/push-after-github-repo.sh
+```text
+https://github.com/the-middle-th/arithaya-model
 ```
 
 ### Milestone 03 - Vercel Deployment
 
-Status: pending GitHub push
+Status: ready for Manus/Vercel
 
 Manus connects Vercel to the GitHub repo and sets environment variables.
 

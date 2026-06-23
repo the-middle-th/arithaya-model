@@ -11,43 +11,19 @@ Vercel
 GitHub repository:
 
 ```text
-https://github.com/arithachboss-cmyk/arithaya-model
+https://github.com/the-middle-th/arithaya-model
 ```
 
-## Current Blocker
+## Current Status
 
-The target GitHub repository has not been created yet.
-
-Create an empty repository:
-
-```text
-owner: arithachboss-cmyk
-name: arithaya-model
-visibility: public or private, depending on founder preference
-README: no
-.gitignore: no
-license: no
-```
-
-Then push:
-
-```bash
-cd /Users/arithachbossabc/Documents/arithaya-model
-git push -u origin main
-```
-
-or:
-
-```bash
-/Users/arithachbossabc/Documents/arithaya-model/scripts/push-after-github-repo.sh
-```
+GitHub repository is live and `main` has been pushed.
 
 ## Vercel Setup
 
 1. Import GitHub repository:
 
 ```text
-arithachboss-cmyk/arithaya-model
+the-middle-th/arithaya-model
 ```
 
 2. Framework preset:

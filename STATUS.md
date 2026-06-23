@@ -6,7 +6,7 @@ Last updated: 2026-06-24
 
 ```text
 Local project complete.
-GitHub repository not yet created.
+GitHub repository created and pushed.
 Deployment not yet started.
 Manus QA not yet started.
 ```
@@ -55,7 +55,7 @@ todo.md
 Remote:
 
 ```text
-git@github.com:arithachboss-cmyk/arithaya-model.git
+https://github.com/the-middle-th/arithaya-model.git
 ```
 
 ## GitHub
@@ -63,13 +63,13 @@ git@github.com:arithachboss-cmyk/arithaya-model.git
 Status:
 
 ```text
-Blocked: repository does not exist yet.
+Live and pushed.
 ```
 
 Target repository:
 
 ```text
-https://github.com/arithachboss-cmyk/arithaya-model
+https://github.com/the-middle-th/arithaya-model
 ```
 
 Push command after repository creation:
@@ -138,4 +138,4 @@ NEXT_PUBLIC_SITE_URL
 
 ## Next Action
 
-Create the empty GitHub repo `arithaya-model`, then push `main`.
+Connect Vercel to `https://github.com/the-middle-th/arithaya-model`, then start Manus QA.

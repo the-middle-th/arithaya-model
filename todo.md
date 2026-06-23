@@ -7,6 +7,7 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [x] Create standalone ARITHAYA project folder
 - [x] Initialize Git repository
 - [x] Add Manus handoff file
+- [x] Add Manus next-task file
 - [x] Add project operating files
 - [x] Import Manus Codex Build & QA Playbook
 - [x] Reconcile Manus playbook with current Next.js + Supabase + Vercel direction
@@ -17,6 +18,7 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [x] Send GitHub URL and handoff files to Manus
 - [x] Record Manus preview URL
 - [ ] Compare Manus preview implementation against GitHub repo implementation
+- [ ] Manus completes QA report from GitHub source
 
 ## Stack
 

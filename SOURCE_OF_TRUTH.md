@@ -22,6 +22,12 @@ references/source-pack
 
 All future Codex fixes, Manus QA reports, Vercel deployment work, and production readiness updates must reference this repository.
 
+Primary Manus task file:
+
+```text
+MANUS_NEXT_TASK.md
+```
+
 Do not use the old CreativEX/Kamakaben repository for ARITHAYA work.
 
 Do not use `arithachboss-cmyk/arithaya-model` for this project unless the founder explicitly migrates ownership later.

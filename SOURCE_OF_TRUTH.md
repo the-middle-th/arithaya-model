@@ -25,6 +25,12 @@ All future Codex fixes, Manus QA reports, Vercel deployment work, and production
 Primary Manus task file:
 
 ```text
+MANUS_BRIEF.md
+```
+
+Detailed Manus task file:
+
+```text
 MANUS_NEXT_TASK.md
 ```
 

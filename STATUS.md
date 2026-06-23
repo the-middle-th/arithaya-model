@@ -70,6 +70,12 @@ Manus collaboration issue:
 https://github.com/the-middle-th/arithaya-model/issues/1
 ```
 
+Simplified Manus brief:
+
+```text
+MANUS_BRIEF.md
+```
+
 Remote:
 
 ```text

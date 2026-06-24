@@ -1,4 +1,5 @@
 import { CTASection } from "@/components/CTASection";
+import { ControlLayer } from "@/components/ControlLayer";
 import { EcosystemLayerCard } from "@/components/EcosystemLayerCard";
 import { HeroSection } from "@/components/HeroSection";
 import { MetricCard } from "@/components/MetricCard";
@@ -17,6 +18,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+      <ControlLayer />
       <section className="bg-white px-6 py-24">
         <div className="mx-auto max-w-7xl">
           <SectionHeader

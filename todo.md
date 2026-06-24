@@ -105,3 +105,10 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [ ] Extract PDF text and page metadata
 - [ ] Synthesize ARITHAYA knowledge themes
 - [ ] Decide which themes become public website copy
+
+## Control System
+
+- [x] Add homepage control layer
+- [x] Add time-control operating cadence
+- [x] Add `CONTROL_SYSTEM.md`
+- [x] Align ACS report with control layer

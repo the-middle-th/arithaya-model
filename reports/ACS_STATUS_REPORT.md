@@ -11,6 +11,8 @@ ARITHAYA Model now has a clean GitHub source of truth, a running local display, 
 
 The system is organized enough for structured QA, but it is not yet production-ready because Manus has not returned the final QA report and Supabase lead capture has not been verified in production.
 
+The homepage now includes a visible control layer for summary discipline, time control, GitHub/Manus coordination, and ACS reporting alignment.
+
 ## Source Of Truth
 
 GitHub:
@@ -83,7 +85,13 @@ https://github.com/the-middle-th/arithaya-model/issues/1
 Latest Codex action:
 
 ```text
-Manus instructions simplified and reset to one brief.
+Homepage control layer added and verified on the local display.
+```
+
+Control system:
+
+```text
+CONTROL_SYSTEM.md
 ```
 
 ## Knowledge Source Pack
@@ -118,6 +126,7 @@ Included themes:
 3. Wait for Manus QA report in Issue #1.
 4. Fix reported issues and update `FIX_LOG.md`.
 5. Synthesize reference pack only after QA baseline is stable.
+6. Keep summary points, time control, and reporting in the same ARITHAYA executive theme.
 
 ## Next Actions - Manus
 

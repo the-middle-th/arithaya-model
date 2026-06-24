@@ -2,9 +2,13 @@ import {
   BarChart3,
   Brain,
   Building2,
+  Clock3,
   CircleDot,
   Database,
+  GitBranch,
   Landmark,
+  MonitorCheck,
+  ShieldCheck,
   Network,
   Sparkles,
   Users
@@ -74,6 +78,40 @@ export const roadmap = [
   { phase: "Phase 02", title: "Pilot Programs", description: "Enterprise labs, curated knowledge assets, early member journeys, and reporting loops." },
   { phase: "Phase 03", title: "Data Intelligence", description: "Dashboard prototypes, privacy model, segmentation, and measurable performance indicators." },
   { phase: "Phase 04", title: "National Platform", description: "Partner ecosystem, investor-ready product architecture, and scalable operations." }
+];
+
+export const controlSignals = [
+  {
+    title: "Single Source",
+    label: "GitHub",
+    description: "All code, documentation, QA notes, and reference packs resolve to the ARITHAYA GitHub repository.",
+    icon: GitBranch
+  },
+  {
+    title: "Live Display",
+    label: "Screen",
+    description: "Codex keeps one working browser screen visible during active implementation and review.",
+    icon: MonitorCheck
+  },
+  {
+    title: "Time Control",
+    label: "Cadence",
+    description: "Work moves through short status cycles: check, build, display, report, fix, retest.",
+    icon: Clock3
+  },
+  {
+    title: "Executive Report",
+    label: "ACS",
+    description: "Asian Coding Systems receives a concise status report covering source, preview, blockers, and next actions.",
+    icon: ShieldCheck
+  }
+];
+
+export const operatingCadence = [
+  "Start with GitHub status and visible screen check.",
+  "Keep Manus communication in Issue #1 and MANUS_BRIEF.md.",
+  "Update ACS status when deployment, QA, or blockers change.",
+  "Commit every verified improvement back to the source of truth."
 ];
 
 export const footerLinks = [

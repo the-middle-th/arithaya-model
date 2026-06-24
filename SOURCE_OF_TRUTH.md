@@ -34,6 +34,12 @@ Communication protocol:
 COMMUNICATION_PROTOCOL.md
 ```
 
+Control system:
+
+```text
+CONTROL_SYSTEM.md
+```
+
 ACS status report:
 
 ```text

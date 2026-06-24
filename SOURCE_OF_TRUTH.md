@@ -28,6 +28,18 @@ Primary Manus task file:
 MANUS_BRIEF.md
 ```
 
+Communication protocol:
+
+```text
+COMMUNICATION_PROTOCOL.md
+```
+
+ACS status report:
+
+```text
+reports/ACS_STATUS_REPORT.md
+```
+
 Detailed Manus task file:
 
 ```text

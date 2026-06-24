@@ -8,6 +8,8 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 - [x] Initialize Git repository
 - [x] Add Manus handoff file
 - [x] Add simplified Manus brief
+- [x] Add communication protocol
+- [x] Add ACS status report
 - [x] Add Manus next-task file
 - [x] Add project operating files
 - [x] Import Manus Codex Build & QA Playbook

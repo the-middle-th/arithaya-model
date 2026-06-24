@@ -84,6 +84,7 @@ export const footerLinks = [
 
 export const partner = {
   founder: "Arithach Chartariyapong",
+  founderThai: "อริทัช ริยะพงษ์",
   technologyPartner: "Asian Coding Systems (ACS)",
   icon: Landmark
 };

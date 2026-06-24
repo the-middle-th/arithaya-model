@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Brain, Database, Network } from "lucide-react";
+import { partner } from "@/lib/content";
 
 export function HeroSection() {
   return (
@@ -14,6 +15,11 @@ export function HeroSection() {
           <p className="mt-7 max-w-2xl text-lg leading-8 text-white/72">
             Transform Knowledge into Wisdom. Transform Data into Intelligence. Transform People into Their Best Version.
           </p>
+          <div className="mt-7 border-l border-gold-500 pl-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-400">Founder</p>
+            <p className="mt-2 text-2xl font-semibold text-white">{partner.founderThai}</p>
+            <p className="mt-1 text-sm text-white/58">{partner.founder}</p>
+          </div>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Link href="/enterprise" className="focus-ring inline-flex items-center justify-center gap-2 bg-gold-500 px-5 py-3 text-sm font-semibold text-navy-950">
               Enterprise partnership <ArrowRight size={18} />

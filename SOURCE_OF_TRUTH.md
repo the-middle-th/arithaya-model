@@ -18,6 +18,12 @@ Reference source pack:
 references/source-pack
 ```
 
+RSU social innovation research pack:
+
+```text
+references/rsu-social-innovation/RSU_RESEARCH_PACK.md
+```
+
 ## Rule
 
 All future Codex fixes, Manus QA reports, Vercel deployment work, and production readiness updates must reference this repository.

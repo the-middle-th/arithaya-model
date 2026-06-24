@@ -101,12 +101,14 @@ Reference materials imported:
 ```text
 references/source-pack
 references/REFERENCE_INDEX.md
+references/rsu-social-innovation/RSU_RESEARCH_PACK.md
 ```
 
 Included themes:
 
 - ARITHAYA build and QA playbook
 - AIDFT / future thinking
+- RSU social innovation / ARITHYA Integrative Dual-Framework Theory
 - public policy analysis
 - UNESCO Creative Cities
 - UK Creative Industries
@@ -127,6 +129,7 @@ Included themes:
 4. Fix reported issues and update `FIX_LOG.md`.
 5. Synthesize reference pack only after QA baseline is stable.
 6. Keep summary points, time control, and reporting in the same ARITHAYA executive theme.
+7. Use the RSU research pack as a controlled source for future ARITHAYA knowledge copy.
 
 ## Next Actions - Manus
 

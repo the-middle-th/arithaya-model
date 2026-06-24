@@ -25,8 +25,14 @@ ARITHAYA_CODEX_PLAYBOOK.md
 
 | File | Purpose | Status |
 | --- | --- | --- |
-| `2-สคริป-AIDFT-RSU-22NOV2025.pdf` | Thai AIDFT RSU script material | Imported, pending extraction |
-| `9-AIDFT-RSU-22Nov2025-.pdf` | AIDFT RSU presentation or related material | Imported, pending extraction |
+| `2-สคริป-AIDFT-RSU-22NOV2025.pdf` | Thai AIDFT RSU script material | Imported, image-based PDF, preview rendered |
+| `9-AIDFT-RSU-22Nov2025-.pdf` | AIDFT RSU presentation or related material | Imported, image-based PDF, preview rendered |
+
+Dedicated RSU research pack:
+
+```text
+references/rsu-social-innovation/RSU_RESEARCH_PACK.md
+```
 
 ## Public Policy
 

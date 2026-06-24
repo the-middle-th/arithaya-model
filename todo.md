@@ -102,7 +102,11 @@ This file is the working checklist for Codex + Manus. Keep history. Mark items d
 
 - [x] Store source files under `references/source-pack`
 - [x] Create `references/REFERENCE_INDEX.md`
-- [ ] Extract PDF text and page metadata
+- [x] Create RSU social innovation research pack
+- [x] Extract RSU PDF page metadata
+- [x] Render RSU PDF visual previews
+- [ ] Run OCR or manual transcription for image-based RSU PDFs
+- [ ] Extract PDF text and page metadata for remaining PDFs
 - [ ] Synthesize ARITHAYA knowledge themes
 - [ ] Decide which themes become public website copy
 

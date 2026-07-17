@@ -7,9 +7,11 @@ import {
   Database,
   GitBranch,
   Landmark,
+  Lightbulb,
   MonitorCheck,
   ShieldCheck,
   Network,
+  Route,
   Sparkles,
   Users
 } from "lucide-react";
@@ -19,6 +21,7 @@ export const navItems = [
   { href: "/ecosystem", label: "Ecosystem" },
   { href: "/products", label: "Products" },
   { href: "/knowledge", label: "Knowledge" },
+  { href: "/creativex", label: "CreativeX" },
   { href: "/enterprise", label: "Enterprise" },
   { href: "/roadmap", label: "Roadmap" },
   { href: "/contact", label: "Contact" }
@@ -70,6 +73,90 @@ export const knowledgeAssets = [
     category: "Enterprise",
     summary: "How organizations can combine AI adoption with human performance systems.",
     isPremium: true
+  },
+  {
+    title: "CreativEX 2026: Branding Thailand in a Disrupting World",
+    slug: "creativex-2026-branding-thailand",
+    category: "Creative Economy",
+    summary: "A field knowledge set connecting city branding, creative organizations, UNESCO creative cities, technology adoption, and UK creative industry systems.",
+    isPremium: false
+  },
+  {
+    title: "Thailand Sensory Intelligence Platform",
+    slug: "thailand-sensory-intelligence-platform",
+    category: "Cultural Data",
+    summary: "A prototype direction for turning Thai cultural memory, scent, place, and creative commerce into measurable intelligence assets.",
+    isPremium: true
+  }
+];
+
+export const creativeXBrief = {
+  title: "CreativEX 2026",
+  theme: "Branding Thailand in a Disrupting World",
+  description:
+    "A Chula CEA creative economy knowledge set that helps ARITHAYA translate cultural capital into practical intelligence, city branding, and enterprise capability.",
+  event: "City Branding & Creative Organization",
+  date: "19 June 2026",
+  sources: [
+    "UNESCO Perspective on Thai Creative Cities and Sustainable Urban Identity",
+    "Driving Enterprise Competitiveness: Building a Tech Driven Creative Organization",
+    "UK Creative Industries: Case Study of Success",
+    "CreativEX2026 Knowledge Brief",
+    "Thailand Sensory Intelligence Platform prototype"
+  ]
+};
+
+export const creativeXInsights = [
+  {
+    title: "Culture Becomes Infrastructure",
+    label: "UNESCO",
+    description:
+      "Creative cities should operate as long-term cultural corridors that connect place, people, knowledge, and future opportunity.",
+    icon: Route
+  },
+  {
+    title: "Creativity Needs Operating Systems",
+    label: "Organization",
+    description:
+      "Technology creates advantage only when people can ask better questions, test ideas quickly, and learn from evidence.",
+    icon: Lightbulb
+  },
+  {
+    title: "Branding Requires Backstage Work",
+    label: "UK Case",
+    description:
+      "Strong place brands need policy, funding, ecosystem mapping, trusted networks, measurement, and legacy planning.",
+    icon: Network
+  },
+  {
+    title: "Learning Must Become Measurable",
+    label: "Platform",
+    description:
+      "The CreativeX platform direction links articles, speaker pages, downloads, search, portfolios, and impact evaluation.",
+    icon: BarChart3
+  }
+];
+
+export const creativeXProgramFlow = [
+  {
+    phase: "01",
+    title: "Thailand Today",
+    detail: "Frame Thailand through three images and three words: current identity, strengths, and tensions."
+  },
+  {
+    phase: "02",
+    title: "The Disruption",
+    detail: "Select the forces that matter most: AI, climate, tourism shifts, geopolitics, aging, work, and creative economy."
+  },
+  {
+    phase: "03",
+    title: "Future Thailand Brand",
+    detail: "Define vision, brand personality, core values, and one big idea that can guide national storytelling."
+  },
+  {
+    phase: "04",
+    title: "Make It Real",
+    detail: "Turn ideas into action across government, business, community, education, culture, soft power, and technology."
   }
 ];
 

@@ -44,6 +44,7 @@ references/rsu-social-innovation/RSU_RESEARCH_PACK.md
 
 | File | Purpose | Status |
 | --- | --- | --- |
+| `CREATIVEX_ARITHAYA_SYNTHESIS.md` | Normalized CreativeX 2026 synthesis for ARITHAYA website and knowledge strategy | Integrated into `/creativex` |
 | `4-CreativEX2026_Speaker3_UK_Creative_Industries_Thai.pdf` | UK Creative Industries Thai reference | Imported, pending extraction |
 | `5-CreativEX2026_Speaker1_UNESCO_Creative_Cities_Knowledge.pdf` | UNESCO Creative Cities Thai reference | Imported, pending extraction |
 | `10-CreativEX2026_Speaker1_UNESCO_Creative_Cities_Knowledge_EN.pdf` | UNESCO Creative Cities English reference | Imported, pending extraction |

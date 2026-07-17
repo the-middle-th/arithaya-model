@@ -5,7 +5,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { MetricCard } from "@/components/MetricCard";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeader } from "@/components/SectionHeader";
-import { ecosystemLayers, metrics, products } from "@/lib/content";
+import { creativeXInsights, ecosystemLayers, metrics, products } from "@/lib/content";
 
 export default function HomePage() {
   return (
@@ -19,6 +19,34 @@ export default function HomePage() {
         </div>
       </section>
       <ControlLayer />
+      <section className="bg-white px-6 py-24">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+            <SectionHeader
+              eyebrow="CreativeX 2026"
+              title="Branding Thailand in a disrupting world."
+              description="CreativeX is now part of the ARITHAYA knowledge layer: a field case for city branding, creative economy strategy, and culture-led intelligence."
+            />
+            <div className="grid gap-4 sm:grid-cols-2">
+              {creativeXInsights.slice(0, 4).map((item) => {
+                const Icon = item.icon;
+
+                return (
+                  <article key={item.title} className="border border-navy-950/10 bg-mist p-5">
+                    <div className="flex items-center gap-3">
+                      <Icon className="h-5 w-5 text-gold-500" aria-hidden="true" />
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-500">
+                        {item.label}
+                      </p>
+                    </div>
+                    <h3 className="mt-4 text-lg font-semibold text-navy-950">{item.title}</h3>
+                  </article>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="bg-white px-6 py-24">
         <div className="mx-auto max-w-7xl">
           <SectionHeader

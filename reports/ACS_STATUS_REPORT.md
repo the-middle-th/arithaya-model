@@ -85,7 +85,7 @@ https://github.com/the-middle-th/arithaya-model/issues/1
 Latest Codex action:
 
 ```text
-Homepage control layer added and verified on the local display.
+CreativeX 2026 knowledge synthesis added to the website and verified locally.
 ```
 
 Control system:
@@ -119,7 +119,7 @@ Included themes:
 1. Manus final QA report is not yet posted in Issue #1.
 2. Supabase production environment variables are not yet verified.
 3. Production host decision remains open: Manus hosting or Vercel.
-4. Public-facing copy has not yet been synthesized from the imported reference pack.
+4. Remaining reference-pack synthesis outside CreativeX is not yet complete.
 
 ## Next Actions - Codex
 
@@ -127,9 +127,26 @@ Included themes:
 2. Maintain GitHub as source of truth.
 3. Wait for Manus QA report in Issue #1.
 4. Fix reported issues and update `FIX_LOG.md`.
-5. Synthesize reference pack only after QA baseline is stable.
+5. Continue synthesizing non-CreativeX reference material only after QA baseline is stable.
 6. Keep summary points, time control, and reporting in the same ARITHAYA executive theme.
 7. Use the RSU research pack as a controlled source for future ARITHAYA knowledge copy.
+
+## CreativeX Integration
+
+Current status:
+
+```text
+Integrated locally
+```
+
+Completed:
+
+- Added `/creativex` page.
+- Added CreativeX navigation item.
+- Added CreativeX knowledge assets.
+- Added homepage CreativeX synthesis block.
+- Added `references/CREATIVEX_ARITHAYA_SYNTHESIS.md`.
+- Verified `npm run build` and `http://127.0.0.1:3000/creativex`.
 
 ## Next Actions - Manus
 

@@ -18,6 +18,7 @@ Use this pack for:
 | --- | ---: | --- |
 | `../source-pack/2-สคริป-AIDFT-RSU-22NOV2025.pdf` | 10 | Script / written summary material |
 | `../source-pack/9-AIDFT-RSU-22Nov2025-.pdf` | 20 | Presentation deck / visual summary material |
+| `/Users/arithachbossabc/Library/Mobile Documents/com~apple~CloudDocs/AIDFT RSU 22Nov2025 Ver.2.pdf` | 108 | Full Canva deck / AIDFT, ARITHYA, SEHISTIC, HIWBM, wellness economy, and policy material |
 
 ## Identified Research Theme
 
@@ -60,12 +61,20 @@ previews/2-สคริป-AIDFT-RSU-22NOV2025/
 previews/9-AIDFT-RSU-22Nov2025-/
 ```
 
+Reading note:
+
+```text
+AIDFT_RSU_22NOV2025_VER2_READING.md
+```
+
 ## Preview Coverage
 
 Currently rendered:
 
 - first 4 pages of `2-สคริป-AIDFT-RSU-22NOV2025.pdf`
 - first 4 pages of `9-AIDFT-RSU-22Nov2025-.pdf`
+- contact-sheet review of all 108 pages of `AIDFT RSU 22Nov2025 Ver.2.pdf`
+- high-resolution review of selected theory, business, and policy pages from `AIDFT RSU 22Nov2025 Ver.2.pdf`
 
 OCR status:
 
@@ -86,7 +95,7 @@ Use these research materials to develop ARITHAYA as more than a website:
 ## Next Work Pass
 
 1. Run OCR or manual transcription on the rendered PDF pages.
-2. Produce a clean Thai/English research summary.
+2. Produce a clean Thai/English research summary from the Ver.2 reading note.
 3. Extract core terms, definitions, and model diagrams.
 4. Decide which concepts belong on the public website.
 5. Move approved concepts into `knowledge_assets` seed content or public page copy.

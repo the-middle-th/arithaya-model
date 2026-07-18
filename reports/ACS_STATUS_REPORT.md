@@ -1,7 +1,7 @@
 # Asian Coding Systems Status Report
 
 Project: ARITHAYA Model  
-Date: 2026-06-24  
+Date: 2026-07-18  
 Prepared by: Codex  
 Technology partner: Asian Coding Systems
 
@@ -11,7 +11,7 @@ ARITHAYA Model now has a clean GitHub source of truth, a running local display, 
 
 The system is organized enough for structured QA, but it is not yet production-ready because Manus has not returned the final QA report and Supabase lead capture has not been verified in production.
 
-The homepage now includes a visible control layer for summary discipline, time control, GitHub/Manus coordination, and ACS reporting alignment.
+The homepage now includes a visible control layer and a central Open Jit Hub route for summary discipline, time control, GitHub/Manus coordination, and ACS reporting alignment.
 
 ## Source Of Truth
 
@@ -85,7 +85,7 @@ https://github.com/the-middle-th/arithaya-model/issues/1
 Latest Codex action:
 
 ```text
-CreativeX 2026 knowledge synthesis added to the website and verified locally.
+Open Jit Hub added as the central ARITHAYA operating gateway and verified with `npm run build`.
 ```
 
 Control system:
@@ -148,11 +148,29 @@ Completed:
 - Added `references/CREATIVEX_ARITHAYA_SYNTHESIS.md`.
 - Verified `npm run build` and `http://127.0.0.1:3000/creativex`.
 
+## Open Jit Hub Integration
+
+Current status:
+
+```text
+Integrated locally and build verified; pending Manus retest after GitHub push.
+```
+
+Completed:
+
+- Added `/open-jit-hub` route.
+- Added Open Jit Hub navigation item.
+- Added homepage Open Jit Hub gateway section.
+- Added protocol sequence: Check, Build, Display, Report, Commit.
+- Added control rooms for Codex, Manus, ACS, and public gateway.
+- Updated Manus task files to include `/open-jit-hub` in QA scope.
+- Verified `npm run build`; Next.js generated `/open-jit-hub` successfully.
+
 ## Next Actions - Manus
 
 1. Read `MANUS_BRIEF.md`.
 2. QA GitHub source against the Manus preview.
-3. Test pages, forms, mobile, SEO, performance, and Supabase readiness.
+3. Test `/open-jit-hub`, pages, forms, mobile, SEO, performance, and Supabase readiness.
 4. Report only in Issue #1.
 5. Mark production readiness yes/no.
 

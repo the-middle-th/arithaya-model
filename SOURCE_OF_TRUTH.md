@@ -58,6 +58,12 @@ Detailed Manus task file:
 MANUS_NEXT_TASK.md
 ```
 
+Current central hub route:
+
+```text
+/open-jit-hub
+```
+
 Do not use the old CreativEX/Kamakaben repository for ARITHAYA work.
 
 Do not use `arithachboss-cmyk/arithaya-model` for this project unless the founder explicitly migrates ownership later.

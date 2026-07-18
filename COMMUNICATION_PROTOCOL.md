@@ -49,6 +49,7 @@ https://github.com/the-middle-th/arithaya-model/issues/1
 Use Issue #1 for:
 
 - Manus QA report
+- Open Jit Hub verification at `/open-jit-hub`
 - build status
 - deployment URL
 - mobile screenshots or notes

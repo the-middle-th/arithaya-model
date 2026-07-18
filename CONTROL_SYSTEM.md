@@ -33,11 +33,12 @@ Check -> Build -> Display -> Report -> Fix -> Commit -> Push -> Retest
 
 ## Website Implementation
 
-The homepage includes a `ControlLayer` section that makes the operating rhythm visible to the team and keeps the project language consistent.
+The homepage links into `/open-jit-hub`, and the site includes a `ControlLayer` section that makes the operating rhythm visible to the team and keeps the project language consistent.
 
 Files:
 
 ```text
+app/open-jit-hub/page.tsx
 components/ControlLayer.tsx
 lib/content.ts
 app/page.tsx

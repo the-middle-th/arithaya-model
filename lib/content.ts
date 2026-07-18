@@ -6,18 +6,22 @@ import {
   CircleDot,
   Database,
   GitBranch,
+  Globe2,
   Landmark,
   Lightbulb,
   MonitorCheck,
   ShieldCheck,
   Network,
+  RadioTower,
   Route,
   Sparkles,
-  Users
+  Users,
+  Waypoints
 } from "lucide-react";
 
 export const navItems = [
   { href: "/", label: "Home" },
+  { href: "/open-jit-hub", label: "Open Jit Hub" },
   { href: "/ecosystem", label: "Ecosystem" },
   { href: "/products", label: "Products" },
   { href: "/knowledge", label: "Knowledge" },
@@ -201,7 +205,120 @@ export const operatingCadence = [
   "Commit every verified improvement back to the source of truth."
 ];
 
+export const openJitHub = {
+  name: "เปิดจิตฮับ",
+  label: "Open Jit Hub",
+  thesis:
+    "ศูนย์กลางเดียวสำหรับเปิดความคิด จัดลำดับงาน และเชื่อม ARITHAYA เข้ากับ Codex, Manus, GitHub และ Asian Coding Systems.",
+  founderSignal: "อริย์ธัช ชาติอาริยะพงศ์",
+  operatingUrl: "http://127.0.0.1:3000",
+  sourceUrl: "https://github.com/the-middle-th/arithaya-model",
+  manuscriptUrl: "https://arithayamod-euhqmijc.manus.space",
+  issueUrl: "https://github.com/the-middle-th/arithaya-model/issues/1"
+};
+
+export const hubGateways = [
+  {
+    title: "Human Intelligence",
+    label: "Core",
+    href: "/ecosystem",
+    description: "รวมความรู้ สุขภาวะ AI ข้อมูล ชุมชน และองค์กรเป็นระบบเดียวที่ตัดสินใจได้เร็วขึ้น.",
+    icon: Brain
+  },
+  {
+    title: "Knowledge Center",
+    label: "Library",
+    href: "/knowledge",
+    description: "เปิดคลังความรู้และบทสังเคราะห์ที่ใช้ต่อยอด ARITHAYA, CreativeX และงานวิจัยที่ควบคุมแหล่งอ้างอิง.",
+    icon: Lightbulb
+  },
+  {
+    title: "Product System",
+    label: "Build",
+    href: "/products",
+    description: "จัดชุดผลิตภัณฑ์ Passport, Studio, Labs, Dashboard, Community และ AI Companion ให้เห็นเป็น portfolio.",
+    icon: Waypoints
+  },
+  {
+    title: "Enterprise Bridge",
+    label: "Partners",
+    href: "/enterprise",
+    description: "ทางเข้าเดียวสำหรับองค์กร พันธมิตร นักลงทุน และทีมที่ต้องการโปรแกรม human capability.",
+    icon: Building2
+  },
+  {
+    title: "CreativeX Layer",
+    label: "Culture",
+    href: "/creativex",
+    description: "เชื่อม city branding, creative economy, Thai cultural capital และ future thinking เข้ากับ ARITHAYA.",
+    icon: Sparkles
+  },
+  {
+    title: "Roadmap Control",
+    label: "2030",
+    href: "/roadmap",
+    description: "ไล่ลำดับจาก foundation, pilot, data intelligence ไปสู่ national platform แบบตรวจสอบได้.",
+    icon: Route
+  }
+];
+
+export const hubProtocolSteps = [
+  {
+    phase: "01",
+    title: "Check",
+    detail: "ตรวจ local display, GitHub status, Manus channel และ ACS report ก่อนเริ่มแก้."
+  },
+  {
+    phase: "02",
+    title: "Build",
+    detail: "แก้เฉพาะ source of truth เดียวใน repo นี้ แล้วรักษา visual language แบบ ARITHAYA."
+  },
+  {
+    phase: "03",
+    title: "Display",
+    detail: "เปิดเว็บไซต์ที่ local URL ให้เห็นระหว่างทำงาน และตรวจ route สำคัญหลัง build."
+  },
+  {
+    phase: "04",
+    title: "Report",
+    detail: "อัปเดต ACS report, Manus next task และ Issue #1 เมื่อมีสถานะหรือ handoff ใหม่."
+  },
+  {
+    phase: "05",
+    title: "Commit",
+    detail: "commit และ push เฉพาะงานที่ verified แล้ว เพื่อให้ Manus ทดสอบจาก GitHub ได้ทันที."
+  }
+];
+
+export const hubControlRooms = [
+  {
+    title: "Codex Build Room",
+    owner: "Codex",
+    description: "สร้าง แก้ ตรวจ build และรักษา repository ให้เป็น source of truth.",
+    icon: MonitorCheck
+  },
+  {
+    title: "Manus QA Room",
+    owner: "Manus",
+    description: "ทดสอบ live preview, mobile, form, SEO, performance และรายงานกลับใน Issue #1.",
+    icon: RadioTower
+  },
+  {
+    title: "ACS Executive Room",
+    owner: "Asian Coding Systems",
+    description: "อ่านสถานะ executive, blockers, production readiness และ next actions.",
+    icon: ShieldCheck
+  },
+  {
+    title: "Public Gateway",
+    owner: "ARITHAYA",
+    description: "เปิดภาพรวม platform ให้พันธมิตรเข้าใจระบบ ผลิตภัณฑ์ และเส้นทางความร่วมมือ.",
+    icon: Globe2
+  }
+];
+
 export const footerLinks = [
+  { href: "/open-jit-hub", label: "Open Jit Hub" },
   { href: "/enterprise", label: "Enterprise" },
   { href: "/knowledge", label: "Knowledge" },
   { href: "/contact", label: "Partnerships" }

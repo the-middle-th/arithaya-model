@@ -43,6 +43,7 @@ Use the GitHub repo as the source, then QA it against the Manus preview.
 
 Check:
 
+- Open Jit Hub at `/open-jit-hub`
 - build status
 - all pages
 - enterprise form

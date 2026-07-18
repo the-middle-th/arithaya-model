@@ -28,7 +28,7 @@ npm run build
 Build status from Codex:
 
 ```text
-Passing after commit 257c28b Fix GitHub source build
+Passing after Open Jit Hub integration; `/open-jit-hub` generated successfully.
 ```
 
 ## Manus Job
@@ -76,6 +76,7 @@ Report differences:
 ### 5. QA Required Pages
 
 - `/`
+- `/open-jit-hub`
 - `/ecosystem`
 - `/products`
 - `/knowledge`

@@ -12,6 +12,12 @@ Live Manus preview:
 https://arithayamod-euhqmijc.manus.space
 ```
 
+Public Vercel production:
+
+```text
+https://arithaya-model.vercel.app
+```
+
 Reference source pack:
 
 ```text
@@ -61,7 +67,7 @@ MANUS_NEXT_TASK.md
 Current central hub route:
 
 ```text
-/open-jit-hub
+https://arithaya-model.vercel.app/open-jit-hub
 ```
 
 Do not use the old CreativEX/Kamakaben repository for ARITHAYA work.
@@ -70,7 +76,7 @@ Do not use `arithachboss-cmyk/arithaya-model` for this project unless the founde
 
 ## Next Execution Order
 
-1. Manus tests the live preview.
+1. Manus tests the public Vercel production URL and Manus live preview.
 2. Codex extracts and synthesizes the reference source pack when copy/content strategy changes are needed.
 3. Manus reports issues against this GitHub repo.
 4. Codex fixes issues locally.

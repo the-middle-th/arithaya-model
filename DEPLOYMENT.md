@@ -5,7 +5,19 @@
 Production host:
 
 ```text
-Manus preview is live. Vercel remains the original production target unless founder chooses Manus hosting.
+Vercel production is live.
+```
+
+Public Vercel URL:
+
+```text
+https://arithaya-model.vercel.app
+```
+
+Open Jit Hub:
+
+```text
+https://arithaya-model.vercel.app/open-jit-hub
 ```
 
 Live Manus preview:
@@ -22,11 +34,11 @@ https://github.com/the-middle-th/arithaya-model
 
 ## Current Status
 
-GitHub repository is live and `main` has been pushed. Manus has also produced a live preview deployment.
+GitHub repository is live, `main` has been pushed, Vercel production is live, and Manus preview remains available as a QA comparison target.
 
 ## Vercel Setup
 
-Use this only if the founder confirms Vercel should be the production host instead of Manus hosting.
+Vercel is now the public production host.
 
 1. Import GitHub repository:
 
@@ -85,6 +97,7 @@ Expected tables:
 After deployment, verify:
 
 - home page loads
+- Open Jit Hub loads
 - all routes load
 - forms submit
 - Supabase receives form records

@@ -12,6 +12,12 @@ Do not use the old CreativEX/Kamakaben repo for ARITHAYA.
 
 ## Current Live Preview
 
+Public Vercel production:
+
+```text
+https://arithaya-model.vercel.app
+```
+
 Manus preview:
 
 ```text
@@ -60,6 +66,7 @@ npm run dev
 Compare GitHub source against:
 
 ```text
+https://arithaya-model.vercel.app
 https://arithayamod-euhqmijc.manus.space
 ```
 

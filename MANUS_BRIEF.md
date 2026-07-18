@@ -12,6 +12,12 @@ https://github.com/the-middle-th/arithaya-model
 
 ## Live Preview
 
+Public Vercel production:
+
+```text
+https://arithaya-model.vercel.app
+```
+
 Current Manus preview:
 
 ```text

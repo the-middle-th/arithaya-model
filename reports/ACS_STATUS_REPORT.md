@@ -7,7 +7,7 @@ Technology partner: Asian Coding Systems
 
 ## Executive Summary
 
-ARITHAYA Model now has a clean GitHub source of truth, a running local display, a Manus preview URL, and a simplified Codex-Manus communication protocol.
+ARITHAYA Model now has a clean GitHub source of truth, a public Vercel production URL, a Manus preview URL, and a simplified Codex-Manus communication protocol.
 
 The system is organized enough for structured QA, but it is not yet production-ready because Manus has not returned the final QA report and Supabase lead capture has not been verified in production.
 
@@ -51,6 +51,18 @@ Manus preview:
 
 ```text
 https://arithayamod-euhqmijc.manus.space
+```
+
+Public Vercel production:
+
+```text
+https://arithaya-model.vercel.app
+```
+
+Open Jit Hub:
+
+```text
+https://arithaya-model.vercel.app/open-jit-hub
 ```
 
 ## Build Status
@@ -118,7 +130,7 @@ Included themes:
 
 1. Manus final QA report is not yet posted in Issue #1.
 2. Supabase production environment variables are not yet verified.
-3. Production host decision remains open: Manus hosting or Vercel.
+3. Supabase lead capture has not yet been verified against production environment variables.
 4. Remaining reference-pack synthesis outside CreativeX is not yet complete.
 
 ## Next Actions - Codex
@@ -165,11 +177,12 @@ Completed:
 - Added control rooms for Codex, Manus, ACS, and public gateway.
 - Updated Manus task files to include `/open-jit-hub` in QA scope.
 - Verified `npm run build`; Next.js generated `/open-jit-hub` successfully.
+- Deployed public Vercel production URL and verified `/open-jit-hub` returns 200 OK.
 
 ## Next Actions - Manus
 
 1. Read `MANUS_BRIEF.md`.
-2. QA GitHub source against the Manus preview.
+2. QA GitHub source against Vercel production and the Manus preview.
 3. Test `/open-jit-hub`, pages, forms, mobile, SEO, performance, and Supabase readiness.
 4. Report only in Issue #1.
 5. Mark production readiness yes/no.
